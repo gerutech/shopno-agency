@@ -1,0 +1,477 @@
+/*******************************************/
+/**************BELOW 1200px******************/
+/*******************************************/
+
+@media (max-width: 75em) {
+  /*General*/
+  .section {
+    padding: 9rem 0;
+  }
+  .container {
+    max-width: 99.2rem;
+    padding: 0 1.6rem;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+  }
+  .section-subheading {
+    font-size: 1.6rem;
+    margin-bottom: 9rem;
+  }
+  .content-heading {
+    font-size: 1.8rem;
+  }
+
+  .content-subheading {
+    font-size: 1.6rem;
+  }
+  .content-text {
+    font-size: 1.6rem;
+  }
+  /*Header*/
+  .header {
+    padding: 3rem 0;
+  }
+  .main-nav {
+    top: 3rem;
+  }
+
+  .main-nav-list {
+    gap: 3rem;
+  }
+  /*Hero*/
+  .section-hero {
+    height: calc(100vh - 11.3rem);
+  }
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+  /*About*/
+  .about-content-heading,
+  .about-content-text {
+    margin-bottom: 2.4rem;
+  }
+  .content-block {
+    padding: 0 3.4rem;
+  }
+  /*Team*/
+  .know_more-content {
+    padding: 8%;
+  }
+  .know_more-close {
+    font-size: 2.4rem;
+    position: absolute;
+    left: 8%;
+    bottom: 8%;
+  }
+
+  .section-team .content-heading {
+    margin-bottom: 2rem;
+  }
+  .section-team .content-text {
+    margin-bottom: 1rem;
+  }
+  /*What They Say*/
+  .they_say-img-box {
+    min-height: 29rem;
+    border-radius: 0.8rem 0 0 0.8rem;
+  }
+  .content-block {
+    border-radius: 0 0.8rem 0.8rem 0;
+    min-height: 29rem;
+  }
+
+  .they_say-person {
+    max-width: 90%;
+  }
+  /*Footer*/
+  .footer {
+    padding: 4rem 0;
+  }
+}
+/*******************************************/
+
+/*******************************************/
+/**************BELOW 992px******************/
+/*******************************************/
+
+@media (max-width: 62em) {
+  /*MOBILE NAVIGATION*/
+  /*General*/
+  .container {
+    padding: 0 1.6rem;
+  }
+  .section-heading {
+    font-size: 2.4rem;
+  }
+  .section-subheading {
+    font-size: 1.4rem;
+    margin-bottom: 9rem;
+  }
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    gap: 6rem;
+  }
+  .dots {
+    transform: translate(-50%, 3rem);
+  }
+  /*Header*/
+  .main-nav {
+    top: 0;
+    height: 100vh;
+    background-color: rgba(239, 240, 242, 0.96);
+  }
+  .main-nav-list {
+    flex-direction: column;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+
+  /*Hero*/
+  .hero-heading {
+    font-size: 3rem;
+    margin-bottom: 12rem;
+  }
+
+  /*About*/
+  .about-img {
+    position: relative;
+    width: 41%;
+    z-index: 4;
+  }
+
+  .about-img-box::before {
+    width: 50%;
+  }
+
+  .about-text-box {
+    flex-direction: column;
+    padding: 0 5.7rem;
+  }
+  /*Works*/
+  .works-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  /*Services*/
+  .services-hover-content {
+    top: 15%;
+  }
+  .know_more-content {
+    padding: 5%;
+  }
+  .services-content-title {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  .services-content-text {
+    font-size: 1.2rem;
+  }
+  .know_more-close {
+    font-size: 2rem;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+  }
+  /*Team*/
+  .team-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .section-team .content-heading {
+    margin-bottom: 4rem;
+  }
+  .section-team .content-text {
+    margin-bottom: 3rem;
+  }
+
+  /*What They Say*/
+  .they_say-dots {
+    bottom: 5rem;
+  }
+  /*CTA*/
+  .cta-wrapper {
+    flex-direction: column;
+  }
+  .cta-text-box,
+  .cta-contacts-box {
+    width: 75%;
+    height: 100%;
+    margin-inline: auto;
+  }
+}
+/*******************************************/
+
+/*******************************************/
+/**************BELOW 768px******************/
+/*******************************************/
+
+@media (max-width: 48em) {
+  /*General*/
+  .section {
+    padding: 9rem 0 4.5rem;
+  }
+  .container {
+    padding: 0 2.4rem;
+  }
+  /*Services*/
+  .services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .services-item {
+    width: 100%;
+  }
+  .services-hover-content {
+    top: 10%;
+    padding-left: 10%;
+  }
+
+  .services-content-title {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+  .services-content-text {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-bottom: 1.2rem;
+  }
+
+  .know_more-content {
+    padding: 5% 5%;
+  }
+
+  .know_more-close {
+    font-size: 2.4rem;
+    left: 5%;
+    bottom: 5%;
+  }
+  /*Team*/
+  .section-team .content-heading {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .section-team .content-text {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  /*What they say*/
+  .section-they_say {
+    min-height: 65rem;
+  }
+
+  /*CTA*/
+  .cta-wrapper {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  /*MODAL*/
+  .modal {
+    width: 80%;
+    max-height: 45rem;
+  }
+}
+/*******************************************/
+
+/*******************************************/
+/**************BELOW 576px******************/
+/*******************************************/
+
+@media (max-width: 36em) {
+  /*General*/
+  .container {
+    padding: 0 1.8rem;
+  }
+  .section-heading {
+    font-size: 2rem;
+  }
+  .section-subheading {
+    font-size: 1.2rem;
+  }
+  .content-heading {
+    font-size: 1.4rem;
+  }
+  .content-subheading {
+    font-size: 1.2rem;
+  }
+  .content-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  /*Header*/
+  .header {
+    padding: 1.8rem 0;
+  }
+  /*Hero*/
+  .section-hero {
+    min-height: calc(100vh - 5.3rem);
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+  .hero-img {
+    position: relative;
+    left: 50%;
+    bottom: -25rem;
+    transform: translate(-50%, -50%);
+  }
+  /*About*/
+  .about-text-box {
+    padding: 0 1rem;
+  }
+  /*Works*/
+  .works-wrapper {
+    grid-template-columns: 1fr;
+  }
+  /*Servises KNOW MORE*/
+  .know_more-content {
+    height: 100%;
+  }
+
+  .services-content-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .services-content-text {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+  }
+  .know_more-content {
+    padding: 4%;
+  }
+
+  .know_more-close {
+    font-size: 1.8rem;
+    position: absolute;
+    left: 4%;
+    bottom: 4%;
+  }
+  /*Team*/
+  .team-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .section-team .content-heading {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .section-team .content-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  /*What they say*/
+  .they_say-slider {
+    width: 100%;
+    min-height: 65rem;
+  }
+  .they_say-slide {
+    width: 100%;
+    min-height: 65rem;
+  }
+  .slide-inner {
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .they_say-img-box {
+    width: 100%;
+    border-radius: 0.8rem 0.8rem 0 0;
+  }
+
+  .they_say-person {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    max-width: 50%;
+    height: auto;
+  }
+  .content-block {
+    border-radius: 0 0 0.8rem 0.8rem;
+  }
+
+  .btns-slider {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+
+    gap: 20rem;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .they_say-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 4rem;
+  }
+
+  /*CTA*/
+  .cta-text-box,
+  .cta-contacts-box {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+  }
+
+  /*Footer*/
+  .footer-heading {
+    font-size: 1.6rem;
+  }
+  .footer-copyright {
+    font-size: 1.4rem;
+  }
+
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.6rem;
+  }
+
+  .footer-icon {
+    height: 4.6rem;
+    width: 4rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #424648;
+  }
+  .footer-icon ion-icon {
+    font-size: 2.4rem;
+    color: #8a9399;
+  }
+  /***********************************************/
+
+  /*MODAL*/
+  .modal {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-close {
+    top: 3%;
+    right: 4%;
+  }
+}
